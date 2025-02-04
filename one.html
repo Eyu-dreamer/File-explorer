@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>File Explorer</title>
+    <link rel="stylesheet" href="one.css" />
+</head>
+
+<body>
+    <main class="container">
+        <h1>File Explorer</h1>
+
+        <!-- Text Display -->
+        <div id="doc" class="text-display">man</div>
+
+        <!-- Image Preview -->
+        <div class="media-preview">
+            <img src="" alt="Selected Image" id="image" class="preview-image" />
+        </div>
+
+        <!-- Video Preview -->
+        <div class="media-preview">
+            <video id="video" controls autoplay loop muted>
+            <source src="" type="" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+
+        <!-- Audio Preview -->
+        <div class="media-preview">
+            <audio id="audio" controls autoplay loop muted>
+            <source src="" type="" />
+            Your browser does not support the audio tag.
+          </audio>
+        </div>
+
+        <!-- File Input -->
+        <div id="custom_input">
+            <label for="file" id="display_for_selected_file">No file selected</label
+          >
+          <input type="file" id="file" />
+          <button id="chooseFileBtn">Choose File</button>
+        </div>
+      </main>
+
+      <script src="one.js"></script>
+    </body>
+  </html>
+</html>
